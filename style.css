@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.3;
+  color: white;
+  background: #070c16;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(3%, #070c16), color-stop(35%, #0d1525), color-stop(83%, #172540));
+  background: linear-gradient(0deg, #070c16 3%, #0d1525 35%, #172540 83%);
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 1.5rem 0.8rem 2rem 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .header span {
+  color: #4fcbdb;
+}
+
+.header-accent {
+  margin: 0 0.8rem 5rem 0.8rem;
+  height: 0.9px;
+  background: #d3e7fc;
+}
+
+.main-content {
+  margin: 0 0.8rem 25rem 0.8rem;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.main-content .title-accent {
+  width: 100px;
+  margin: 1rem auto 1rem auto;
+  height: 3px;
+  display: inline-block;
+  background-color: #4fcbdb;
+}
+
+.title {
+  font-family: 'Vollkorn', 'Times New Roman', Times, serif;
+}
+
+.title #s-title {
+  font-size: 0.75rem;
+  letter-spacing: .5em;
+}
+
+.title h1 {
+  font-size: 3.157rem;
+  letter-spacing: 1.5px;
+}
+
+@media only screen and (min-width: 29.75em) {
+  .title #s-title {
+    font-size: 1.333rem;
+  }
+  .title h1 {
+    font-size: 4.209rem;
+  }
+}
+
+.desc {
+  margin-bottom: 1.3rem;
+  padding: 0 0.8rem;
+}
+
+.date-form input {
+  font-family: inherit;
+  padding: 5px;
+  margin-bottom: 3rem;
+}
+
+.date-form button {
+  margin: 0 auto;
+  display: block;
+  width: 12.5rem;
+  height: 3.125rem;
+  border-radius: 50px;
+  border: none;
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(3%, white), color-stop(35%, #d3e7fc));
+  background: linear-gradient(0deg, white 3%, #d3e7fc 35%);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.replaced-content {
+  margin: 0 0.8rem 5rem 0.8rem;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+}
+
+.replaced-content .picture-info {
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  margin-bottom: 3rem;
+}
+
+.replaced-content .picture {
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  margin: 0 0.8rem 2rem 0.8rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
