@@ -33,7 +33,12 @@ nav {
           justify-content: space-between;
 }
 
-nav .header span {
+nav .header a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .header a span {
   color: #4fcbdb;
 }
 
