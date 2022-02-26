@@ -21,6 +21,7 @@ const fetchPicture = dateString => {
 }
 
 const input = document.querySelector('input');
+input.value = '2000-01-01'
 const generateBtn = document.querySelector('.generate-btn');
 generateBtn.addEventListener('click', e => {
     e.preventDefault();
